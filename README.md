@@ -1,2 +1,2 @@
-# diffusion
-Fichier HTML des Diffusions Foyer
+# Diffusion Foyer
+Modèle HTML pour les diffusions Foyer
