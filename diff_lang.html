@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diffusion Foyer</title>
+    <style>:root {
+        --main-color: #0a7747;
+        --second-color: #7ab173ff;
+        --third-color: #bbee55 ;
+        --select-color: #741d35ff;
+        --background-color : #ffffff;
+    }</style>
+    <style type="text/css">.rcmail-inline-message { font-family: sans-serif; border:2px solid var(--main-color) ;background:var(--main-color) ; padding:0.6em 1em; margin-bottom:0.6em }.rcmail-inline-buttons { margin-bottom:0 }</style>
+    <style type="text/css">.here a:hover {
+        background-color: var(--main-color) ;
+        }.nhere a:hover {
+            background-color: var(--select-color);
+        }</style>
+        <style type="text/css">
+        .here:hover {
+        background-color: #008B8B;
+        }.nhere a:hover {
+            background-color: var(--select-color);
+        }</style>
+        <style type="text/css">
+        .main-content {
+            display: none;
+        }
+        
+        #fr:checked ~ .main-content[data-lang="fr"] {
+            display: block;
+        }
+        
+        #en:checked ~ .main-content[data-lang="en"] {
+            display: block;
+        }
+        </style>
+        <style>
+            h1{
+                color: var(--main-color) 
+            }
+            h3{
+                color: var(--main-color)
+            }
+            h5{
+                color: var(--third-color)
+            }
+            label{
+                color: var(--second-color);
+                font-size: 2em;
+                margin-top: 0.67em;
+                margin-bottom: 0.67em;
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: bold;
+            }
+            td{
+                padding: 20px; 
+                font-family: georgia;
+                font-size: 15px; 
+                line-height: 20px; 
+                background-color: var(--background-color); 
+                color: #555555
+            }
+            blockquote{
+                margin-left: 15px; 
+                border-left: 4px solid var(--third-color) ;
+                border-bottom: 2px solid var(--third-color) ; 
+                padding-left: 8px;
+                margin-right: 0; 
+                background-color: var(--background-color);
+            }
+            table{
+                margin: 0 auto 
+            }
+            center{
+                width: 100%; 
+                background-color: var(--background-color)
+            }
+            img{
+                width: 100%; 
+                max-width: 680px; 
+                height: auto;
+            }
+            a[class="select"]{
+                display: block;
+                color: #ffffff; 
+                text-align: center;
+                text-decoration: none; 
+                padding: 10px
+            }
+            div{
+                max-width: 680px; 
+                margin: 0 auto
+            }
+        </style>
+</head>
+<body>
+    <center>
+    <tr>        
+        <img alt="Diffusion Foyer" src="https://perso.ens-lyon.fr/elie.sevegnes/Foyer/Diff/diff_foyer.png" moz-do-not-send="true">
+    </tr>
+    <tr>
+        <td>
+        <h1>Diffusion Foyer du XX Mois </h1>
+        <input type="radio" name="lang" id="fr" checked/>
+        <label for="fr">Français</label>
+        <input type="radio" name="lang" id="en"/>
+        <label  for="en">English</label>
+        </td>
+    </tr>
+    <p> </p>
+    <div class="main-content" data-lang="fr">    
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="IF">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Événements</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <h3>Livres à prendre </h3>
+            <blockquote>
+            <p>Bonjour à toustes, vous avez
+            sûrement pu le voir mais des cartons de livres ont
+            été préparés pour dégager de la place dans les
+            bibliothèques du Foyer, ainsi nous vous invitons à
+            en prendre si vous le souhaitez. Ils finiront dans
+            2 semaines chez Emmaus dans le cas contraire.<br>
+            @+ au Foy'<br>
+            </p>
+            </blockquote>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="event">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Événements</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Afterwork - Un nouveau souffle pour le Foyer </h3>
+              <h5> Lundi 20 février à 19h </h5>
+              <blockquote>
+                Vous vous souvenez quand le
+                  Foyer était devenu une serre tropicale ? Et bien
+                  après une fermeture de ~~deux semaines d'un mois~~
+                  trop longue, ça y est, un vent nouveau souffle sur
+                  le Foyer, grâce à une toute nouvelle ventilation !
+                  Et quelle meilleure occasion de tester cette
+                  dernière que lors d'un afterwork le lundi 20
+                  février ? Comme d'habitude, tireuse et nourriture
+                  seront au rendez-vous, cette fois garanties sans
+                  chaleur insoutenable !
+              </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Projection de
+                Films de Montagne<br>
+              </h3>
+              <h5>Mercredi 22
+                février à 20h<br>
+              </h5>
+              <blockquote>Bonjour à tous et à toutes,<br>
+                <br>
+                Les projection de film de montagne au foyer revienne
+                dès ce mercredi. Venez nous rejoindre à 20 h avec de
+                quoi vous sustenter afin de découvrir 3 film:<br>
+                <br>
+                La Marion en hiver: vous voulez en apprendre plus
+                sur ce qui pousse les alpinistes à s'aventurer dans
+                des lignes toujours plus audacieuse ? La Marion en
+                hiver décrit les sensations que ressent un.e
+                grimpeur.se pendent l'ascension d'un cascade
+                difficile,le tout avec un délicieux accent
+                québécois.<br>
+                <br>
+                 Orbayu, de retour dans les Alpes, ce film nous
+                présente le travail et l'enchaînement de la grande
+                voie nommé Orbayu, une des 3 plus dure des Alpes.<br>
+                <br>
+                La ligne, une traverse des Alpes à ski. Venez
+                découvrir 2 jeunes qui se sont lancé un défi
+                d'ampleur, partir de Nice à pied, les ski sur le sac
+                à dos et rejoindre le lac lément en ski le tout en
+                approximativement 30 jour.<br>
+                <br>
+                Parthan project. C'est l'histoire d'une expédition
+                au Kazakhstan dans la quel on découvre un découvre
+                le processus de l'expédition en alpinisme.
+                Cependant, de nombre imprévu vont ce produire et
+                vont altérer leur plan.<br>
+                <br>
+                Au plaisir de vous voir mercredi,<br>
+                <br>
+                Maxime et Max<br>
+              </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Projection : "Pride" - ArcENSiel </h3>
+              <h5>Vendredi 24 février à 18h
+              </h5>
+              <blockquote>Rendez-vous le vendredi 24 février
+                à 18h au Foyer pour un retour à l'été 1984 avec la
+                projection du film Pride (réalisé par Matthew
+                Warchus en 2014) : Basé sur une histoire vraie, le
+                film dépeint un groupe d'activistes gays et lesbiens
+                porté par Mark Ashton, à Londres, qui ont réuni des
+                fonds pour aider les familles touchées par la grève
+                des mineurs britanniques de 1984-1985, sous Margaret
+                Thatcher, au début de ce qui allait devenir la
+                campagne de Lesbians and Gays Support the Miners
+                (LGSM). Le Syndicat national des mineurs était
+                réticent à accepter le soutien du groupe en raison
+                du souci du syndicat pour ses relations publiques
+                d'être ouvertement associé à un groupe gay, de sorte
+                que les militants londoniens ont plutôt décidé
+                d'apporter leurs dons directement à Onllwyn, un
+                petit village minier de la Dulais Valley du Pays de
+                Galles — résultant en une alliance entre les deux
+                communautés. L'alliance était inédite, mais fut un
+                succès.</blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="BgCl">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Événements</b></a></div>
+                  </li>
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 20px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              #ffffff; color: #555555">
+              <h3>Dites-nous ce que vous pensez: ça nous intéresse VRAIMENT</h3>
+              <blockquote>
+                <p>Le Foyer n'est pas un lieu, le Foyer est un
+                  concept ! Et ce concept vous appartient et c'est à
+                  vous de le façonner ! <b>Pour améliorer le Foyer,
+                    nous vous invitons donc à nous faire part </b>
+                  lorsque vous le souhaitez de vos avis et
+                  suggestions le concernant, directement en venant
+                  nous rencontrer au Foyer ou par mail à la <a
+                    href="mailto:bde.foyer@ens-lyon.fr"
+                    rel="noreferrer" class="moz-txt-link-freetext">Liste
+                    RF</a> ou bien sur le <a
+                    href="https://framaforms.org/suggestions-pour-le-foyer-1666863659"
+                    target="_blank" rel="noreferrer">framaform</a>.
+                  Nous tâcherons de prendre en compte vos remarques
+                  afin d'améliorer, quotidiennement, l'accueil et la
+                  qualité de vie au Foyer </p>
+              </blockquote>
+              <h3 style="color: var(--main-color) ">Paye ton ardoise
+                et range ton Foyer, BORDEL</h3>
+              <blockquote>
+                <p>Tout est dans le titre:</p>
+                <ul>
+                  <li> Rechargez votre ardoise : sans roulement de
+                    fond, le Foyer ne pourra plus acheter de miams,
+                    bières, softs, café et conso repas. Pensez donc
+                    à recharger votre ardoise auprès d'un·e RF ou
+                    bien par virement en accompagnant votre virement
+                    d'un mail à <a
+                      href="mailto:bde.foyer@ens-lyon.fr"
+                      rel="noreferrer" class="moz-txt-link-freetext">bde.foyer@ens-lyon.fr</a>
+                    nous indiquant le montant à créditer !!! Les
+                    ardoises trop souvent dans le rouge se verront
+                    bientôt sanctionnées !</li>
+                  <li>Range ton Foyer : lors de votre passage au
+                    Foyer, pensez à jeter vos déchets, ranger vos
+                    consignes, faire votre vaisselle et nettoyer
+                    votre table. Les RF ne doivent pas nettoyer
+                    après vous. En particulier, lavez vos tasses,
+                    BORDEL !</li>
+                </ul>
+              </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="bg">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Événements</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 20px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              #ffffff; color: var(--main-color) ">
+              <div style="text-align: justify; font-family: georgia;
+                font-size: small">
+                <p>Pour nous contacter : </p>
+                <ul>
+                  <li>Par mail à <a
+                      href="mailto:bde.foyer@ens-lyon.fr"
+                      onclick="return
+                      rcmail.command('compose','bde.foyer@ens-lyon.fr',this)"
+                      rel="noreferrer" class="moz-txt-link-freetext"
+                      moz-do-not-send="true">bde.foyer@ens-lyon.fr</a></li>
+                </ul>
+                <p>Pour retrouver toutes les informations : </p>
+                <ul>
+                  <li>La <a
+                      href="https://www.facebook.com/FoyerENSL/"
+                      target="_blank" rel="noreferrer"
+                      moz-do-not-send="true">page Facebook</a> du
+                    Foyer</li>
+                  <li>La <a
+                      href="https://www.instagram.com/foyer_ens_de_lyon/"
+                      target="_blank" rel="noreferrer"
+                      moz-do-not-send="true">page Instagram</a> du
+                    Foyer</li>
+                </ul>
+                <p>Les coordonnées bancaires du Foyer pour rechargez
+                  vos ardoises. N'oubliez pas d'envoyer un mail en précisant le montant à <a
+                    href="mailto:bde.foyer@ens-lyon.fr"
+                    onclick="return
+                    rcmail.command('compose','bde.foyer@ens-lyon.fr',this)"
+                    rel="noreferrer" class="moz-txt-link-freetext"
+                    moz-do-not-send="true">bde.foyer@ens-lyon.fr</a>
+                  pour qu'on puisse créditer vos ardoises !<br>
+                </p>
+                <ul style="list-style: none;">
+                  <li> Titulaire du compte: BDE ENSL FOYER KFET </li>
+                  <li> Banque: 10096 </li>
+                  <li> Code guichet: 18007 </li>
+                  <li> Numéro de compte: 00020672302 </li>
+                  <li> Clé RIB: 51 </li>
+                  <li> Domiciliation: </li>
+                  <li>CIC LYON GERLAND</li>
+                  <li>32 RUE JACQUES MONOD</li>
+                  <li> 69007 LYON </li>
+                  <li> IBAN: FR76 1009 6180 0700 0206 7230 251</li>
+                  <li> Code B.I.C: CMCIFRPP</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="main-content" data-lang="en">    
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+        <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="IF">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Events</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <h3>Lorem ipsum dolor sit amet consectetur,</h3>
+            <blockquote>
+            <p>B adipisicing elit. Explicabo dolores assumenda qui accusantium voluptatibus, accusamus error, repellat ad consectetur, incidunt quasi obcaecati debitis? Temporibus similique, voluptates quasi ducimus iure odit?<br>
+            </p>
+            </blockquote>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="event">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Events</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Afterwork - Un nouveau souffle pour le Foyer </h3>
+              <h5> Lundi 20 février à 19h </h5>
+              <blockquote>
+                Vous vous souvenez quand le
+                  Foyer était devenu une serre tropicale ? Et bien
+                  après une fermeture de ~~deux semaines d'un mois~~
+                  trop longue, ça y est, un vent nouveau souffle sur
+                  le Foyer, grâce à une toute nouvelle ventilation !
+                  Et quelle meilleure occasion de tester cette
+                  dernière que lors d'un afterwork le lundi 20
+                  février ? Comme d'habitude, tireuse et nourriture
+                  seront au rendez-vous, cette fois garanties sans
+                  chaleur insoutenable !
+              </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Projection de
+                Films de Montagne<br>
+              </h3>
+              <h5>Mercredi 22
+                février à 20h<br>
+              </h5>
+              <blockquote>Bonjour à tous et à toutes,<br>
+                <br>
+                Les projection de film de montagne au foyer revienne
+                dès ce mercredi. Venez nous rejoindre à 20 h avec de
+                quoi vous sustenter afin de découvrir 3 film:<br>
+                <br>
+                La Marion en hiver: vous voulez en apprendre plus
+                sur ce qui pousse les alpinistes à s'aventurer dans
+                des lignes toujours plus audacieuse ? La Marion en
+                hiver décrit les sensations que ressent un.e
+                grimpeur.se pendent l'ascension d'un cascade
+                difficile,le tout avec un délicieux accent
+                québécois.<br>
+                <br>
+                 Orbayu, de retour dans les Alpes, ce film nous
+                présente le travail et l'enchaînement de la grande
+                voie nommé Orbayu, une des 3 plus dure des Alpes.<br>
+                <br>
+                La ligne, une traverse des Alpes à ski. Venez
+                découvrir 2 jeunes qui se sont lancé un défi
+                d'ampleur, partir de Nice à pied, les ski sur le sac
+                à dos et rejoindre le lac lément en ski le tout en
+                approximativement 30 jour.<br>
+                <br>
+                Parthan project. C'est l'histoire d'une expédition
+                au Kazakhstan dans la quel on découvre un découvre
+                le processus de l'expédition en alpinisme.
+                Cependant, de nombre imprévu vont ce produire et
+                vont altérer leur plan.<br>
+                <br>
+                Au plaisir de vous voir mercredi,<br>
+                <br>
+                Maxime et Max<br>
+              </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Projection : "Pride" - ArcENSiel </h3>
+              <h5>Vendredi 24 février à 18h
+              </h5>
+              <blockquote>Rendez-vous le vendredi 24 février
+                à 18h au Foyer pour un retour à l'été 1984 avec la
+                projection du film Pride (réalisé par Matthew
+                Warchus en 2014) : Basé sur une histoire vraie, le
+                film dépeint un groupe d'activistes gays et lesbiens
+                porté par Mark Ashton, à Londres, qui ont réuni des
+                fonds pour aider les familles touchées par la grève
+                des mineurs britanniques de 1984-1985, sous Margaret
+                Thatcher, au début de ce qui allait devenir la
+                campagne de Lesbians and Gays Support the Miners
+                (LGSM). Le Syndicat national des mineurs était
+                réticent à accepter le soutien du groupe en raison
+                du souci du syndicat pour ses relations publiques
+                d'être ouvertement associé à un groupe gay, de sorte
+                que les militants londoniens ont plutôt décidé
+                d'apporter leurs dons directement à Onllwyn, un
+                petit village minier de la Dulais Valley du Pays de
+                Galles — résultant en une alliance entre les deux
+                communautés. L'alliance était inédite, mais fut un
+                succès.</blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="BgCl">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Events</b></a></div>
+                  </li>
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Dites-nous ce que vous pensez: ça nous intéresse VRAIMENT</h3>
+              <blockquote>
+                <p>Le Foyer n'est pas un lieu, le Foyer est un
+                  concept ! Et ce concept vous appartient et c'est à
+                  vous de le façonner ! <b>Pour améliorer le Foyer,
+                    nous vous invitons donc à nous faire part </b>
+                  lorsque vous le souhaitez de vos avis et
+                  suggestions le concernant, directement en venant
+                  nous rencontrer au Foyer ou par mail à la <a
+                    href="mailto:bde.foyer@ens-lyon.fr"
+                    rel="noreferrer" class="moz-txt-link-freetext">Liste
+                    RF</a> ou bien sur le <a
+                    href="https://framaforms.org/suggestions-pour-le-foyer-1666863659"
+                    target="_blank" rel="noreferrer">framaform</a>.
+                  Nous tâcherons de prendre en compte vos remarques
+                  afin d'améliorer, quotidiennement, l'accueil et la
+                  qualité de vie au Foyer </p>
+              </blockquote>
+              <h3 style="color: var(--main-color) ">Paye ton ardoise
+                et range ton Foyer, BORDEL</h3>
+              <blockquote>
+                <p>Tout est dans le titre:</p>
+                <ul>
+                  <li> Rechargez votre ardoise : sans roulement de
+                    fond, le Foyer ne pourra plus acheter de miams,
+                    bières, softs, café et conso repas. Pensez donc
+                    à recharger votre ardoise auprès d'un·e RF ou
+                    bien par virement en accompagnant votre virement
+                    d'un mail à <a
+                      href="mailto:bde.foyer@ens-lyon.fr"
+                      rel="noreferrer" class="moz-txt-link-freetext">bde.foyer@ens-lyon.fr</a>
+                    nous indiquant le montant à créditer !!! Les
+                    ardoises trop souvent dans le rouge se verront
+                    bientôt sanctionnées !</li>
+                  <li>Range ton Foyer : lors de votre passage au
+                    Foyer, pensez à jeter vos déchets, ranger vos
+                    consignes, faire votre vaisselle et nettoyer
+                    votre table. Les RF ne doivent pas nettoyer
+                    après vous. En particulier, lavez vos tasses,
+                    BORDEL !</li>
+                </ul>
+              </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0px; font-family: georgia;
+              font-size: 15px; line-height: 20px; background-color:
+              var(--third-color) ; color: #555555">
+              <div id="bg">
+                <ul style="background-color: var(--second-color);
+                  list-style-type: none; margin-left: 0;
+                  margin-right: 0; padding: 0; overflow: hidden;
+                  font-family: Trebuchet MS; font-size: x-small;
+                  height: 30px">
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#IF" moz-do-not-send="true"><b>Informations</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#event" moz-do-not-send="true"><b>Events</b></a></div>
+                  </li>
+                  <li style="float: left">
+                    <div class="nhere"><a class="select"
+                        href="#BgCl" moz-do-not-send="true"><b>BORDEL
+                          !!!</b><br>
+                      </a></div>
+                  </li>
+                  <li style="float: left; background-color:
+                    var(--main-color) ">
+                    <div class="here"><a class="select"
+                        href="#bg" moz-do-not-send="true"><b>Contacts</b></a></div>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div style="text-align: justify; font-family: georgia;
+                font-size: small">
+                <p>Pour nous contacter : </p>
+                <ul>
+                  <li>Par mail à <a
+                      href="mailto:bde.foyer@ens-lyon.fr"
+                      onclick="return
+                      rcmail.command('compose','bde.foyer@ens-lyon.fr',this)"
+                      rel="noreferrer" class="moz-txt-link-freetext"
+                      moz-do-not-send="true">bde.foyer@ens-lyon.fr</a></li>
+                </ul>
+                <p>Pour retrouver toutes les informations : </p>
+                <ul>
+                  <li>La <a
+                      href="https://www.facebook.com/FoyerENSL/"
+                      target="_blank" rel="noreferrer"
+                      moz-do-not-send="true">page Facebook</a> du
+                    Foyer</li>
+                  <li>La <a
+                      href="https://www.instagram.com/foyer_ens_de_lyon/"
+                      target="_blank" rel="noreferrer"
+                      moz-do-not-send="true">page Instagram</a> du
+                    Foyer</li>
+                </ul>
+                <p>Les coordonnées bancaires du Foyer pour rechargez
+                  vos ardoises. N'oubliez pas d'envoyer un mail en précisant le montant à <a
+                    href="mailto:bde.foyer@ens-lyon.fr"
+                    onclick="return
+                    rcmail.command('compose','bde.foyer@ens-lyon.fr',this)"
+                    rel="noreferrer" class="moz-txt-link-freetext"
+                    moz-do-not-send="true">bde.foyer@ens-lyon.fr</a>
+                  pour qu'on puisse créditer vos ardoises !<br>
+                </p>
+                <ul style="list-style: none;">
+                  <li> Titulaire du compte: BDE ENSL FOYER KFET </li>
+                  <li> Banque: 10096 </li>
+                  <li> Code guichet: 18007 </li>
+                  <li> Numéro de compte: 00020672302 </li>
+                  <li> Clé RIB: 51 </li>
+                  <li> Domiciliation: </li>
+                  <li>CIC LYON GERLAND</li>
+                  <li>32 RUE JACQUES MONOD</li>
+                  <li> 69007 LYON </li>
+                  <li> IBAN: FR76 1009 6180 0700 0206 7230 251</li>
+                  <li> Code B.I.C: CMCIFRPP</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+    </div>
+</center>
+</body>
+</html>
